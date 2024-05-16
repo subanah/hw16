@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Ubuntu", sans-serif;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.light-bulb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    background-color: #FFFFED;
+}
+.light-bulb button{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 0;
+    background-color:  #E79A3F;
+    color: #f9c901;
+}
